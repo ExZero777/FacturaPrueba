@@ -1,2 +1,2 @@
-# FacturaPruebaLeoMarques
-Prueba Flashera De Factura
+# factura
+Ejemplo de modelado implementado en Java
