@@ -12,6 +12,11 @@ package factura;
 public class Cliente {
     private String nombre;
     private String apellido;
+    private String calle;
+    private String altura;
+    private String piso_dto;
+    private String observaciones;
+    private Localidad localidad;
     
     public String getApellido() {
         return apellido;
@@ -29,5 +34,43 @@ public class Cliente {
         this.nombre = nombre;
     }
     
+    public String getCalle() {
+        return calle;
+    }
+
+    public void setCalle(String calle) {
+        this.calle = calle;
+    }
     
+    public String getAltura() {
+        return altura;
+    }
+
+    public void setAltura(String altura) {
+        this.altura = altura;
+    }
+    
+    public String getPiso_dto() {
+        return piso_dto;
+    }
+
+    public void setPiso_dto(String piso_dto) {
+        this.piso_dto = piso_dto;
+    }
+    
+    public String getObservaciones() {
+        return observaciones;
+    }
+
+    public void setObservaciones(String observaciones) {
+        this.observaciones = observaciones;
+    }
+    
+    public Localidad getLocalidad() {
+        return localidad;
+    }
+
+    public void setLocalidad(Localidad localidad) {
+        this.localidad = localidad;
+    }
 }
